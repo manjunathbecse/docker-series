@@ -1,4 +1,4 @@
-node('docker') {
+pipeline {
 
     stage 'Checkout'
         checkout scm
